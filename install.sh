@@ -13,6 +13,7 @@ fi
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
+rm -rf $HOME/.vimrc
 ln -sf ~/dotfiles/zshrc ~/.zshrc
 ln -sf ~/dotfiles/vimrc ~/.vimrc
 
