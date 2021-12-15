@@ -1,7 +1,7 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
-filetype plugin indent on    " required
+set encoding=utf-8
 
+" Leader
+let mapleader = " "
 
 call plug#begin('~/.vim/plugged')
 
