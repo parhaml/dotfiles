@@ -19,7 +19,7 @@ ln -sf ~/dotfiles/zshrc ~/.zshrc
 ln -sf ~/dotfiles/vimrc ~/.vimrc
 
 # Homebrew
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /    home/spin/.zprofile && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/spin/.zprofile && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 
 # Make Ag in vim
