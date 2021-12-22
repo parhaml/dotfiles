@@ -16,6 +16,7 @@ Plug 'hashivim/vim-terraform'
 Plug 'tpope/vim-fugitive'
 Plug 'joshdick/onedark.vim'
 Plug 'preservim/nerdtree'
+Plug 'tpope/vim-endwise'
 call plug#end()
 
 nnoremap <SPACE> <Nop>
