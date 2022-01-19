@@ -11,7 +11,9 @@ echo "Y" | sudo apt purge neovim
 echo "\n" | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/spin/.zprofile && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew install vim
-brew install the_silver_searcher
+
+brew tap burntsushi/ripgrep https://github.com/BurntSushi/ripgrep.git
+brew install burntsushi/ripgrep/ripgrep-bin
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
