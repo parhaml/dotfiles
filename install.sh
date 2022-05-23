@@ -22,5 +22,7 @@ rm -rf $HOME/.vimrc
 ln -sf ~/dotfiles/zshrc ~/.zshrc
 ln -sf ~/dotfiles/vimrc ~/.vimrc
 
+yes "" | vim +'PlugInstall --sync' +qa
+
 
 
